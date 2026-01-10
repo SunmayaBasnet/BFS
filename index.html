@@ -119,7 +119,7 @@
       <ul class="navbar-nav ms-auto gap-3 fw-bold align-items-center">
         <li class="nav-item"><a class="nav-link text-white" aria-current="page" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link text-white" href="about_us.html" target="_blank">About</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="services.html" target="_blank">Services</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#services" target="_blank">Services</a></li>
         <li class="nav-item"><a class="nav-link text-white" href="#">Gallery</a></li>
         <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
         <li class="nav-item d-flex align-items-center ms-3">
@@ -205,7 +205,7 @@
 
 
 <!-- our services -->
-<section class="features container my-5">
+<section class="features container my-5" id="services">
   <h2 class="text-warning mb-4 text-center fw-bold">Our Services</h2>
 
   <div class="row">
@@ -277,7 +277,7 @@
     <div class="col-md-3 mb-3">
       <div class="card text-center h-100">
         <div class="card-body">
-          <div class="display-6">✈️</div>
+          <div class="display-6">🖥️</div>
           <h5 class="card-title mt-3 "><strong class="text-primary">Ctevt</strong></h5>
           <p class="card-text" style="color: #6c757d;">
             Let’s get connected to expert mentors so they can guide you through the
@@ -293,7 +293,7 @@
        <div class="col-md-3 mb-3">
       <div class="card text-center h-100">
         <div class="card-body">
-          <div class="display-6">✈️</div>
+          <div class="display-6">🛜</div>
           <h5 class="card-title mt-3 "><strong class="text-primary">Online Form Serviece</strong></h5>
           <p class="card-text" style="color: #6c757d;">
             Let’s get connected to expert mentors so they can guide you through the
@@ -436,39 +436,55 @@
   <div class="container">
     <div class="row gy-4">
 
-      <!-- About -->
-      <div class="col-lg-4 col-md-6">
+      <!-- Quick Response -->
+      <div class="col-lg-3 col-md-6">
         <h5 class="fw-bold mb-3">Quick Response</h5>
-        <ul>
-          <li><a href="about_us.html" class="text-white fw-bold" style="text-decoration: none;">About us</a></li>
-          <li><a href="#" class="text-white fw-bold" style="text-decoration: none;">Services</a></li>
+        <ul class="list-unstyled">
+          <li>
+            <a href="about_us.html" class="text-white fw-bold text-decoration-none">About us</a>
+          </li>
+          <li>
+            <a href="#" class="text-white fw-bold text-decoration-none">Services</a>
+          </li>
         </ul>
       </div>
 
-      <!-- Contact -->
-      <div class="col-lg-4 col-md-6">
-        <h5 class="fw-bold mb-3">Contact Info</h5>
+      <!-- Dang Location -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="fw-bold mb-3">Dang Office</h5>
         <ul class="list-unstyled small">
-          <li>Bir Bahadur Giri- Documentation Officer</li>
-          <li>📍Ghorahi-15 Dang, Nepal</li>
+          <li>📍 Ghorahi-15, Dang, Nepal</li>
           <li>📞 9841540575</li>
           <li>✉️ brightfuturedang@gmail.com</li>
         </ul>
+        <iframe
+          src="https://www.google.com/maps?q=Ghorahi,Dang,Nepal&output=embed"
+          width="100%"
+          height="150"
+          style="border:0;"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
       </div>
 
-      <!-- Google Map -->
-      <div class="col-lg-4 col-md-12">
-        <h5 class="fw-bold mb-3">Our Location</h5>
-        <div class="map-box">
-          <iframe
-            src="https://www.google.com/maps?q=Dang,Nepal&output=embed"
-            width="100%"
-            height="200"
-            style="border:0;"
-            allowfullscreen
-            loading="lazy">
-          </iframe>
-        </div>
+      <!-- Kathmandu Location -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="fw-bold mb-3">Kathmandu Office</h5>
+        <ul class="list-unstyled small">
+          <li>📍 Samakhushi 26 Kathmandu, Nepal</li>
+          <li>📞 97689811464</li>
+          <li>✉️ info@brightfuture.edu.np</li>
+        </ul>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.965902342085!2d85.31846382814275!3d27.73449708513968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84326b7f991cfcf1%3A0x36fb653f5f04880e!2sBright%20Future%20Education%20Samakhusi!5e1!3m2!1sen!2snp!4v1767947478858!5m2!1sen!2snp" width="100%" height="150" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Extra / Support -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="fw-bold mb-3">Support</h5>
+        <ul class="list-unstyled small">
+          <li>📞 Office Hours: 6 AM – 6 PM</li>
+          <li>📅 Sunday – Friday</li>
+        </ul>
       </div>
 
     </div>
@@ -477,7 +493,7 @@
 
     <!-- Bottom Footer -->
     <div class="text-center small pb-3">
-      © <span id="year"></span> Bright Future Prabidhik Shikshalaya . All Rights Reserved.
+      © <span id="year"></span> Bright Future Prabidhik Shikshalaya. All Rights Reserved.
     </div>
   </div>
 </footer>
